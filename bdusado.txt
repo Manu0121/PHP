@@ -1,0 +1,13 @@
+create database banco;
+use database;
+
+create table clientes(
+usuario varchar(255),
+email varchar(255) unique,
+senha varchar(255));
+
+insert into clientes (usuario, email, senha) values
+('Manu','manu@gmail.com','1234'),
+('Maria','maria@gmail.com','5678'),
+('Ignez','ignez@gmail.com','1234');
+
